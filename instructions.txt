@@ -1,0 +1,7 @@
+
+
+For Windows install Python and then run the python files in the Windows Folder the run the .msi files
+
+For Mac and linux run "bash install-streamer.sh" and add the directory that you are in so Mac or linux
+
+Run the script on your Rpi and then you are good 
