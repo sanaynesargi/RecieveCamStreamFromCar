@@ -5,7 +5,7 @@ url2  = 'https://gstreamer.freedesktop.org/data/pkg/windows/1.14.4/gstreamer-1.0
 
 print('\n\nInstalling dev package')
 r = requests.get(url, allow_redirects=True)
-open('gst-dev.msi', 'wb').write(r.content))
+open('gst-dev.msi', 'wb').write(r.content)
 
 print('\n\nInstalling stream package')
 r = requests.get(url2, allow_redirects=True)
